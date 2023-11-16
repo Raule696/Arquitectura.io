@@ -1,0 +1,12 @@
+Para poder prender el programa tienen que poner 
+
+call start chrome "http://127.0.0.1:8000/"
+call python manage.py runserver
+
+El "chrome" lo pueden cambiar por el navegador que usan ustedes por predeterminado.
+
+Para entrar en la pestaña de administracion deben ingrear a 
+
+http://127.0.0.1:8000/admin/
+
+Y ahi pueden editar lo que esta en admin.py
